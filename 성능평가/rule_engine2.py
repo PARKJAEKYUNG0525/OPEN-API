@@ -2,13 +2,20 @@ from zipcd_translation import get_zipCd
 import pandas as pd
 import json
 
+from code_mapping import (
+    JOB_MAP,
+    SCHOOL_MAP,
+    MARRIAGE_MAP,
+    SBIZ_MAP,
+    MAJOR_MAP,
+)
+
 BASE_PATH = "성능평가/"
 
 zipcd_csv_path = BASE_PATH + "zipcd_mapping.csv"
-
 zipcd_df = pd.read_csv(zipcd_csv_path, dtype={"시군구코드": str})
 
-print(get_zipCd("서울", "성동구", zipcd_df))  # region, district, 코드 파일경로
+print(get_zipCd("서울", "성동구", zipcd_df))
 
 
 
@@ -31,277 +38,205 @@ def parse_zip_list(zip_cd):
 def is_empty_or_unlimited(value):
     if value is None:
         return True
-
-    value = str(value).strip()
-
-    return value in ["", "제한없음", "제한 없음", "무관", "0"]
+    return str(value).strip() in ["", "제한없음", "제한 없음", "무관", "0"]
 
 
-# 나이 조건
+# sbiz 체커 (모듈 레벨에 한 번만 정의)
+
+SBIZ_USER_CHECK = {
+    "중소기업":      lambda u: u.get("company_type") == "중소기업",
+    "여성":          lambda u: u.get("gender") == "여",
+    "기초생활수급자": lambda u: u.get("special_type") == "기초생활수급자",
+    "한부모가정":    lambda u: u.get("special_type") == "한부모가정",
+    "장애인":        lambda u: u.get("disability") is True,
+    "농업인":        lambda u: (
+        u.get("occupation") == "농업인"
+        or u.get("employment_status") == "영농종사자"
+    ),
+    "군인":          lambda u: u.get("military_status") in ["군필", "현역"],
+    "지역인재":      lambda u: (
+        u.get("special_type") == "지역인재"
+        or u.get("local_talent") is True
+    ),
+}
+
+
+# ── match 함수들 ──────────────────────────────────────────────────────────────
+
 def match_age(user, policy):
-    user_age = user.get("age")
-
-    min_age = policy.get("sprtTrgtMinAge")
-    max_age = policy.get("sprtTrgtMaxAge")
+    """나이 조건"""
     age_limit_yn = policy.get("sprtTrgtAgeLmtYn")
-
-    # 연령 제한 없음
     if age_limit_yn == "Y":
         return True
 
-    # min/max가 모두 없을 때만 제한 없음
-    # if is_empty_or_unlimited(min_age) and is_empty_or_unlimited(max_age):
-    #     return True
-
+    user_age = user.get("age")
     if user_age is None:
         return False
-
     user_age = int(user_age)
 
-    if not is_empty_or_unlimited(min_age):
-        if user_age < int(min_age):
-            return False
+    min_age = policy.get("sprtTrgtMinAge")
+    max_age = policy.get("sprtTrgtMaxAge")
 
-    if not is_empty_or_unlimited(max_age):
-        if user_age > int(max_age):
-            return False
+    if not is_empty_or_unlimited(min_age) and user_age < int(min_age):
+        return False
+    if not is_empty_or_unlimited(max_age) and user_age > int(max_age):
+        return False
 
     return True
 
 
-# 지역 조건
 def match_region(user, policy):
-    user_region = str(user.get("region", "")).strip()
-    user_district = str(user.get("district", "")).strip()
-    user_zip = get_zipCd(user_region, user_district, zipcd_df)
+    """지역 조건"""
     policy_zip_list = parse_zip_list(policy.get("zipCd"))
-
-    # 정책 지역 제한 없음
     if not policy_zip_list:
         return True
 
+    user_zip = get_zipCd(
+        str(user.get("region", "")).strip(),
+        str(user.get("district", "")).strip(),
+        zipcd_df,
+    )
     if not user_zip:
         return False
 
     return user_zip in policy_zip_list
 
-# 혼인 조건
-def match_marriage(user, policy):
-    user_marriage = user.get("marital_status")
-    policy_marriage = policy.get("mrgSttsCd")
 
-    # 제한 없음
+def match_marriage(user, policy):
+    """혼인 조건"""
+    policy_marriage = policy.get("mrgSttsCd")
     if is_empty_or_unlimited(policy_marriage):
         return True
 
-    # TODO: 실제 코드표에 맞게 수정
-    marriage_map = {
-        "미혼": "0055002",
-        "기혼": "0055001",
-        "제한없음": "0055003",
-    }
-
-    if policy_marriage == marriage_map.get("제한없음"):
+    allowed_value = MARRIAGE_MAP.get(policy_marriage)
+    if allowed_value is None:   # 제한없음 (0055003)
         return True
 
-    return marriage_map.get(user_marriage) == policy_marriage
+    return user.get("marital_status") == allowed_value
 
-# 학력 조건
+
 def match_school_status(user, policy):
-
-    user_edu = user.get("education")
+    """학력 조건"""
     policy_school = policy.get("schoolCd")
-
     if is_empty_or_unlimited(policy_school):
         return True
 
-    school_map = {
-        "고졸 미만": "0049001",
-        "고교 재학": "0049002",
-        "고졸 예정": "0049003",
-        "고교 졸업": "0049004",
-        "대학 재학": "0049005",
-        "대졸 예정": "0049006",
-        "대학 졸업": "0049007",
-        "석·박사": "0049008",
-    }
-
-    if policy_school == "0049010":  # 제한없음
+    allowed_value = SCHOOL_MAP.get(policy_school)
+    if allowed_value is None:   # 제한없음 (0049010)
         return True
 
-    return school_map.get(user_edu) == policy_school
+    return user.get("education") == allowed_value
 
-# 정책 대상 특수계층
+
 def match_sbiz(user, policy):
+    """정책 대상 특수계층"""
     policy_sbiz = policy.get("sbizCd")
-
-    # 값이 없거나 제한없음이면 통과
     if is_empty_or_unlimited(policy_sbiz):
         return True
 
-    if policy_sbiz == "0014010":  # 제한없음
+    allowed_value = SBIZ_MAP.get(policy_sbiz)
+    if allowed_value is None:   # 제한없음 (0014010)
+        return True
+    if allowed_value == "기타":  # 0014009, 판단 불가 → 통과
         return True
 
-    # 0014009 기타 → 별도 판단 불가하므로 통과
-    if policy_sbiz == "0014009":
-        return True
+    checker = SBIZ_USER_CHECK.get(allowed_value)
+    return checker(user) if checker else False
 
-    # 0014001 중소기업
-    if policy_sbiz == "0014001":
-        return user.get("company_type") == "중소기업"
 
-    # 0014002 여성
-    elif policy_sbiz == "0014002":
-        return user.get("gender") == "여"
-
-    # 0014003 기초생활수급자
-    elif policy_sbiz == "0014003":
-        return user.get("special_type") == "기초생활수급자"
-
-    # 0014004 한부모가정
-    elif policy_sbiz == "0014004":
-        return user.get("special_type") == "한부모가정"
-
-    # 0014005 장애인
-    elif policy_sbiz == "0014005":
-        return user.get("disability", False) is True
-
-    # 0014006 농업인
-    elif policy_sbiz == "0014006":
-        return (
-            user.get("occupation") == "농업인"
-            or user.get("employment_status") == "영농종사자"
-        )
-
-    # 0014007 군인
-    elif policy_sbiz == "0014007":
-        return user.get("military_status") in ["군필", "현역"]
-
-    # 0014008 지역인재
-    elif policy_sbiz == "0014008":
-        # 지역인재 여부를 더미데이터에 추가했다면 사용
-        return (
-            user.get("special_type") == "지역인재"
-            or user.get("local_talent", False) is True
-        )
-
-    # 알 수 없는 코드면 보수적으로 탈락 처리
-    return False
-
-# 학과
 def match_major(user, policy):
-    user_major = user.get("major")
+    """학과 조건"""
     policy_major = policy.get("plcyMajorCd")
-
     if is_empty_or_unlimited(policy_major):
         return True
 
-    major_map = {
-        "인문계열": "0011001",
-        "사회계열": "0011002",
-        "상경계열": "0011003",
-        "이학계열": "0011004",
-        "공학계열": "0011005",
-        "예체능계열": "0011006",
-        "제한없음": "0011007",
-    }
-
-    if policy_major == major_map.get("제한없음"):
+    allowed_value = MAJOR_MAP.get(policy_major)
+    if allowed_value is None:   # 제한없음
         return True
 
-    return major_map.get(user_major) == policy_major
+    return user.get("major") == allowed_value
 
-# 취업 상태
+
 def match_job(user, policy):
+    """취업 상태 조건"""
     policy_job = policy.get("jobCd")
-
     if is_empty_or_unlimited(policy_job):
         return True
 
-    if policy_job == "0013010":  # 제한없음
-        return True
+    # jobCd가 콤마로 여러 개 올 수 있음
+    policy_job_codes = [c.strip() for c in str(policy_job).split(",") if c.strip()]
 
-    user_job_codes = set()
+    for code in policy_job_codes:
+        allowed_statuses = JOB_MAP.get(code)
 
-    # 재직자
-    if user.get("employment_status") == "재직":
-        user_job_codes.add("0013001")
+        if allowed_statuses is None:    # 제한없음 (0013010)
+            return True
 
-    # 미취업자
-    elif user.get("employment_status") in [
-        "미취업",
-        "취업준비생"
-    ]:
-        user_job_codes.add("0013003")
+        # 창업 관련 (0013006): startup_interest 또는 occupation으로 판단
+        if code == "0013006":
+            if (
+                user.get("startup_interest") is True
+                or user.get("occupation") == "창업자"
+            ):
+                return True
+            continue
 
-    # 자영업자
-    if user.get("employment_status") == "자영업":
-        user_job_codes.add("0013002")
+        if user.get("employment_status") in allowed_statuses:
+            return True
 
-    # (예비)창업자
-    if user.get("startup_interest") is True or user.get("occupation") == "창업자":
-        user_job_codes.add("0013006")
+    return False
 
-    return policy_job in user_job_codes
 
-# 소득 조건
 def match_income(user, policy):
-    user_income = user.get("income")
-
-    earn_min = policy.get("earnMinAmt")
-    earn_max = policy.get("earnMaxAmt")
+    """소득 조건"""
     earn_condition = policy.get("earnCndSeCd")
-
-    # 소득 제한 없음
     if is_empty_or_unlimited(earn_condition):
         return True
 
+    user_income = user.get("income")
     if user_income is None:
         return False
-
     user_income = int(user_income)
 
-    if not is_empty_or_unlimited(earn_min):
-        if user_income < int(earn_min):
-            return False
+    earn_min = policy.get("earnMinAmt")
+    earn_max = policy.get("earnMaxAmt")
 
-    if not is_empty_or_unlimited(earn_max):
-        if user_income > int(earn_max):
-            return False
+    if not is_empty_or_unlimited(earn_min) and user_income < int(earn_min):
+        return False
+    if not is_empty_or_unlimited(earn_max) and user_income > int(earn_max):
+        return False
 
     return True
 
-# 한명의 사용자가 한 개의 정책에 부합하는지 검사
+
+# 평가 
+
 def match_policy(user, policy):
+    """한 명의 사용자가 한 개의 정책에 부합하는지 검사"""
     checks = {
-        "age": match_age(user, policy),
-        "region": match_region(user, policy),
-        "marriage": match_marriage(user, policy),
-        # "income": match_income(user, policy),
+        "age":          match_age(user, policy),
+        "region":       match_region(user, policy),
+        "marriage":     match_marriage(user, policy),
         "school_status": match_school_status(user, policy),
-        "sbiz": match_sbiz(user, policy),
-        "job": match_job(user, policy),
-        # "major": match_major(user, policy),
-        # "military_service": match_military_service(user, policy),
-        # "disability": match_disability(user, policy),
-        # "startup_intent": match_startup_intent(user, policy),
-        # "business_status": match_business_status(user, policy),
-        # "employment_status": match_employment_status(user, policy),
+        "sbiz":         match_sbiz(user, policy),
+        "job":          match_job(user, policy),
+        # "income":     match_income(user, policy),
+        # "major":      match_major(user, policy),
     }
 
     is_matched = all(checks.values())
 
     return {
         "result": "YES" if is_matched else "NO",
-        "details": checks
+        "details": checks,
     }
 
-# 모든 사용자 X 모든 정책 조합을 검사해서 결과를 만드는 함수
+
 def evaluate_all_policies(policy_json_path, dummy_json_path):
+    """모든 사용자 × 모든 정책 조합을 검사해서 결과 반환"""
     policy_data = load_json(policy_json_path)
     dummy_data = load_json(dummy_json_path)
 
-    # 온통청년 API 구조 대응
     policies = policy_data.get("result", {}).get("youthPolicyList", policy_data)
     users = dummy_data
 
@@ -313,20 +248,19 @@ def evaluate_all_policies(policy_json_path, dummy_json_path):
 
         for user in users:
             user_id = user.get("user_id")
-
             match_result = match_policy(user, policy)
 
             results.append({
-                "policy_id": policy_id,
-                "policy_name": policy_name,
-                "user_id": user_id,
-                "result": match_result["result"],
-                "age_match": match_result["details"]["age"],
-                "region_match": match_result["details"]["region"],
+                "policy_id":      policy_id,
+                "policy_name":    policy_name,
+                "user_id":        user_id,
+                "result":         match_result["result"],
+                "age_match":      match_result["details"]["age"],
+                "region_match":   match_result["details"]["region"],
                 "marriage_match": match_result["details"]["marriage"],
-                "school_status": match_result["details"]["school_status"],
-                "sbiz": match_result["details"]["sbiz"],
-                "job": match_result["details"]["job"],
+                "school_status":  match_result["details"]["school_status"],
+                "sbiz":           match_result["details"]["sbiz"],
+                "job":            match_result["details"]["job"],
             })
 
     return results
@@ -335,11 +269,10 @@ def evaluate_all_policies(policy_json_path, dummy_json_path):
 if __name__ == "__main__":
     results = evaluate_all_policies(
         policy_json_path=BASE_PATH + "ontongAPI.json",
-        dummy_json_path=BASE_PATH + "dummy_data.json"
+        dummy_json_path=BASE_PATH + "dummy_data.json",
     )
 
     df = pd.DataFrame(results)
-
     df.to_csv(BASE_PATH + "rule_engine_result.csv", index=False, encoding="utf-8-sig")
 
     print(df.head())
