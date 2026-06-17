@@ -1,0 +1,9 @@
+description: Youth Policy LLM Evaluation
+
+providers:
+  - id: google:gemini-2.5-flash
+
+prompts:
+  - "{{input}}"
+
+tests: file://promptfoo_tests.csv
