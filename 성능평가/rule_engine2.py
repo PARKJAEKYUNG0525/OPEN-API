@@ -109,7 +109,7 @@ def match_marriage(user, policy):
 # 학력 조건
 def match_school_status(user, policy):
 
-    user_edu = user.get("education_level")
+    user_edu = user.get("education")
     policy_school = policy.get("schoolCd")
 
     if is_empty_or_unlimited(policy_school):

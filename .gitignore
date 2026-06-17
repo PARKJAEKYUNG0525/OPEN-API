@@ -1,2 +1,4 @@
 API_test.py
 rule_engine_result.csv
+**/__pycache__/
+.vscode
