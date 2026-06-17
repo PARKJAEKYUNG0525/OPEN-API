@@ -1,6 +1,7 @@
 API_test.py
 rule_engine_result.csv
 rule_engine_result_count.csv
+llm_result_gemini.csv
 **/__pycache__/
 .vscode
 .env
