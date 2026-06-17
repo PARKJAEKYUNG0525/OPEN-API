@@ -275,5 +275,25 @@ if __name__ == "__main__":
     df = pd.DataFrame(results)
     df.to_csv(BASE_PATH + "rule_engine_result.csv", index=False, encoding="utf-8-sig")
 
+    # 정책별 YES/NO 집계
+    count_df = (
+        df.groupby(["policy_id", "policy_name", "result"])
+        .size()
+        .unstack(fill_value=0)
+        .reset_index()
+    )
+
+    # YES / NO 컬럼이 없을 경우 대비
+    for col in ["YES", "NO"]:
+        if col not in count_df.columns:
+            count_df[col] = 0
+
+    count_df = count_df[["policy_id", "policy_name", "YES", "NO"]]
+    count_df["total"] = count_df["YES"] + count_df["NO"]
+
+    count_df.to_csv(BASE_PATH + "rule_engine_result_count.csv", index=False, encoding="utf-8-sig")
+
     print(df.head())
     print("총 결과 수:", len(df))
+    print("\n[정책별 YES/NO 집계]")
+    print(count_df.to_string(index=False))
