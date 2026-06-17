@@ -46,8 +46,12 @@ def match_age(user, policy):
     age_limit_yn = policy.get("sprtTrgtAgeLmtYn")
 
     # 연령 제한 없음
-    if age_limit_yn == "N":
+    if age_limit_yn == "Y":
         return True
+
+    # min/max가 모두 없을 때만 제한 없음
+    # if is_empty_or_unlimited(min_age) and is_empty_or_unlimited(max_age):
+    #     return True
 
     if user_age is None:
         return False
