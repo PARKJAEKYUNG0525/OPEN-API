@@ -7,3 +7,7 @@ llm_result_gemini.csv
 .envEmbedding/koelectra_model/
 Embedding/tunib_model/
 Embedding/sroberta_model/
+Embedding/**/model.safetensors
+Embedding/**/tokenizer.json
+Embedding/**/tokenizer_config.json
+Embedding/**/config.json
