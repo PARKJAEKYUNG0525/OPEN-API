@@ -4,10 +4,12 @@ rule_engine_result_count.csv
 llm_result_gemini.csv
 **/__pycache__/
 .vscode
-.envEmbedding/koelectra_model/
+.env
+Embedding/koelectra_model/
 Embedding/tunib_model/
 Embedding/sroberta_model/
 Embedding/**/model.safetensors
 Embedding/**/tokenizer.json
 Embedding/**/tokenizer_config.json
 Embedding/**/config.json
+**/*.safetensors
