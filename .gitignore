@@ -4,4 +4,6 @@ rule_engine_result_count.csv
 llm_result_gemini.csv
 **/__pycache__/
 .vscode
-.env
+.envEmbedding/koelectra_model/
+Embedding/tunib_model/
+Embedding/sroberta_model/
