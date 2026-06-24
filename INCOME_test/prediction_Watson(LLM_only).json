@@ -1,0 +1,309 @@
+[
+  {
+    "plcyNo": "20260605005400113228",
+    "required_fields": [
+      "annual_income",
+      "is_business_owner",
+      "annual_sales",
+      "household_income",
+      "household_size"
+    ],
+    "elapsed_sec": 1.8
+  },
+  {
+    "plcyNo": "20260528005400113227",
+    "required_fields": [
+      "annual_income",
+      "household_income",
+      "household_size"
+    ],
+    "elapsed_sec": 0.59
+  },
+  {
+    "plcyNo": "20260528005400113226",
+    "required_fields": [
+      "annual_income"
+    ],
+    "elapsed_sec": 0.46
+  },
+  {
+    "plcyNo": "20260527005400113224",
+    "required_fields": [],
+    "elapsed_sec": 0.39
+  },
+  {
+    "plcyNo": "20260527005400113223",
+    "required_fields": [
+      "annual_income",
+      "household_income",
+      "household_size"
+    ],
+    "elapsed_sec": 0.56
+  },
+  {
+    "plcyNo": "20260527005400213222",
+    "required_fields": [],
+    "elapsed_sec": 0.39
+  },
+  {
+    "plcyNo": "20260527005400213221",
+    "required_fields": [],
+    "elapsed_sec": 0.39
+  },
+  {
+    "plcyNo": "20260522005400213220",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.47
+  },
+  {
+    "plcyNo": "20260522005400213219",
+    "required_fields": [],
+    "elapsed_sec": 1.55
+  },
+  {
+    "plcyNo": "20260522005400213218",
+    "required_fields": [],
+    "elapsed_sec": 0.38
+  },
+  {
+    "plcyNo": "20260622005400213244",
+    "required_fields": [],
+    "elapsed_sec": 0.38
+  },
+  {
+    "plcyNo": "20260622005400213243",
+    "required_fields": [],
+    "elapsed_sec": 0.4
+  },
+  {
+    "plcyNo": "20260619005400213242",
+    "required_fields": [],
+    "elapsed_sec": 0.39
+  },
+  {
+    "plcyNo": "20260618005400213241",
+    "required_fields": [
+      "annual_income",
+      "household_income",
+      "household_size"
+    ],
+    "elapsed_sec": 0.55
+  },
+  {
+    "plcyNo": "20260618005400213240",
+    "required_fields": [],
+    "elapsed_sec": 0.54
+  },
+  {
+    "plcyNo": "20260618005400213239",
+    "required_fields": [],
+    "elapsed_sec": 0.36
+  },
+  {
+    "plcyNo": "20260616005400113238",
+    "required_fields": [
+      "annual_income"
+    ],
+    "elapsed_sec": 0.46
+  },
+  {
+    "plcyNo": "20260616005400213237",
+    "required_fields": [],
+    "elapsed_sec": 0.53
+  },
+  {
+    "plcyNo": "20260616005400213236",
+    "required_fields": [],
+    "elapsed_sec": 1.61
+  },
+  {
+    "plcyNo": "20260616005400213235",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.45
+  },
+  {
+    "plcyNo": "20260615005400213234",
+    "required_fields": [],
+    "elapsed_sec": 0.39
+  },
+  {
+    "plcyNo": "20260615005400213233",
+    "required_fields": [],
+    "elapsed_sec": 0.41
+  },
+  {
+    "plcyNo": "20260614005400213232",
+    "required_fields": [
+      "annual_income",
+      "household_income",
+      "household_size"
+    ],
+    "elapsed_sec": 1.85
+  },
+  {
+    "plcyNo": "20260612005400213231",
+    "required_fields": [],
+    "elapsed_sec": 0.4
+  },
+  {
+    "plcyNo": "20260612005400213230",
+    "required_fields": [],
+    "elapsed_sec": 0.39
+  },
+  {
+    "plcyNo": "20260610005400113229",
+    "required_fields": [],
+    "elapsed_sec": 0.39
+  },
+  {
+    "plcyNo": "20260522005400213217",
+    "required_fields": [],
+    "elapsed_sec": 0.39
+  },
+  {
+    "plcyNo": "20260522005400213216",
+    "required_fields": [],
+    "elapsed_sec": 0.55
+  },
+  {
+    "plcyNo": "20260522005400213215",
+    "required_fields": [],
+    "elapsed_sec": 0.37
+  },
+  {
+    "plcyNo": "20260522005400213214",
+    "required_fields": [],
+    "elapsed_sec": 0.39
+  },
+  {
+    "plcyNo": "20260522005400213213",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.44
+  },
+  {
+    "plcyNo": "20260522005400213212",
+    "required_fields": [],
+    "elapsed_sec": 0.4
+  },
+  {
+    "plcyNo": "20260522005400213211",
+    "required_fields": [],
+    "elapsed_sec": 0.39
+  },
+  {
+    "plcyNo": "20260521005400213210",
+    "required_fields": [],
+    "elapsed_sec": 0.39
+  },
+  {
+    "plcyNo": "20260521005400213209",
+    "required_fields": [],
+    "elapsed_sec": 0.56
+  },
+  {
+    "plcyNo": "20260520005400213208",
+    "required_fields": [],
+    "elapsed_sec": 0.39
+  },
+  {
+    "plcyNo": "20260518005400213206",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.43
+  },
+  {
+    "plcyNo": "20260513005400213205",
+    "required_fields": [],
+    "elapsed_sec": 0.36
+  },
+  {
+    "plcyNo": "20260513005400213204",
+    "required_fields": [
+      "annual_income",
+      "household_income",
+      "household_size"
+    ],
+    "elapsed_sec": 0.55
+  },
+  {
+    "plcyNo": "20260513005400213203",
+    "required_fields": [],
+    "elapsed_sec": 0.39
+  },
+  {
+    "plcyNo": "20260513005400213202",
+    "required_fields": [],
+    "elapsed_sec": 0.4
+  },
+  {
+    "plcyNo": "20260513005400213201",
+    "required_fields": [],
+    "elapsed_sec": 0.37
+  },
+  {
+    "plcyNo": "20260513005400213200",
+    "required_fields": [
+      "annual_income",
+      "household_income",
+      "household_size"
+    ],
+    "elapsed_sec": 0.98
+  },
+  {
+    "plcyNo": "20260513005400213199",
+    "required_fields": [
+      "annual_income",
+      "household_income",
+      "household_size"
+    ],
+    "elapsed_sec": 0.72
+  },
+  {
+    "plcyNo": "20260513005400213198",
+    "required_fields": [
+      "annual_income",
+      "household_income",
+      "household_size"
+    ],
+    "elapsed_sec": 0.57
+  },
+  {
+    "plcyNo": "20260513005400213197",
+    "required_fields": [
+      "annual_income",
+      "household_income",
+      "household_size",
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.62
+  },
+  {
+    "plcyNo": "20260513005400213196",
+    "required_fields": [
+      "annual_income"
+    ],
+    "elapsed_sec": 0.44
+  },
+  {
+    "plcyNo": "20260513005400213195",
+    "required_fields": [],
+    "elapsed_sec": 0.38
+  },
+  {
+    "plcyNo": "20260513005400213194",
+    "required_fields": [],
+    "elapsed_sec": 0.55
+  },
+  {
+    "plcyNo": "20260513005400213193",
+    "required_fields": [],
+    "elapsed_sec": 0.38
+  }
+]

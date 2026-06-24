@@ -1,0 +1,59 @@
+[
+  {
+    "plcyNo": "20260605005400113228",
+    "required_fields": [
+      "annual_income",
+      "is_business_owner",
+      "annual_sales",
+      "household_income",
+      "household_size"
+    ]
+  },
+  {
+    "plcyNo": "20260528005400113227",
+    "required_fields": [
+      "household_income",
+      "household_size"
+    ]
+  },
+  {
+    "plcyNo": "20260528005400113226",
+    "required_fields": [
+      "annual_income"
+    ]
+  },
+  {
+    "plcyNo": "20260527005400113224",
+    "required_fields": []
+  },
+  {
+    "plcyNo": "20260527005400113223",
+    "required_fields": [
+      "annual_income"
+    ]
+  },
+  {
+    "plcyNo": "20260527005400213222",
+    "required_fields": []
+  },
+  {
+    "plcyNo": "20260527005400213221",
+    "required_fields": [
+      "is_business_owner"
+    ]
+  },
+  {
+    "plcyNo": "20260522005400213220",
+    "required_fields": [
+      "is_business_owner"
+    ]
+  },
+  {
+    "plcyNo": "20260522005400213219",
+    "required_fields": []
+  },
+  {
+    "plcyNo": "20260522005400213218",
+    "required_fields": []
+  }
+]

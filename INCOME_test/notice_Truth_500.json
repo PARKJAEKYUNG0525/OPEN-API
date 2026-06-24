@@ -1,0 +1,4693 @@
+[
+  {
+    "plcyNo": "20260622005400213244",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260622005400213243",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260619005400213242",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "candidates": [
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.5
+  },
+  {
+    "plcyNo": "20260618005400213241",
+    "required_fields": [
+      "household_size",
+      "household_income"
+    ],
+    "candidates": [
+      "household_income",
+      "household_size"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "household_income",
+      "household_size"
+    ],
+    "elapsed_sec": 0.55
+  },
+  {
+    "plcyNo": "20260618005400213240",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260618005400213239",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260616005400113238",
+    "required_fields": [
+      "annual_income"
+    ],
+    "candidates": [
+      "annual_income"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "annual_income"
+    ],
+    "elapsed_sec": 0.51
+  },
+  {
+    "plcyNo": "20260616005400213237",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260616005400213236",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260616005400213235",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "candidates": [
+      "annual_income",
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.5
+  },
+  {
+    "plcyNo": "20260615005400213234",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260615005400213233",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260614005400213232",
+    "required_fields": [
+      "household_size",
+      "household_income"
+    ],
+    "candidates": [
+      "household_income",
+      "household_size"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "household_income",
+      "household_size"
+    ],
+    "elapsed_sec": 0.54
+  },
+  {
+    "plcyNo": "20260612005400213231",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260612005400213230",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260610005400113229",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260605005400113228",
+    "required_fields": [
+      "household_size",
+      "is_business_owner",
+      "household_income",
+      "annual_income",
+      "annual_sales"
+    ],
+    "candidates": [
+      "annual_income",
+      "annual_sales",
+      "household_income",
+      "household_size",
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "annual_income",
+      "annual_sales",
+      "household_income",
+      "household_size",
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.83
+  },
+  {
+    "plcyNo": "20260528005400113227",
+    "required_fields": [
+      "household_size",
+      "household_income"
+    ],
+    "candidates": [
+      "household_income",
+      "household_size"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "household_income",
+      "household_size"
+    ],
+    "elapsed_sec": 0.61
+  },
+  {
+    "plcyNo": "20260528005400113226",
+    "required_fields": [
+      "annual_income"
+    ],
+    "candidates": [
+      "annual_income"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.43
+  },
+  {
+    "plcyNo": "20260527005400113224",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260527005400113223",
+    "required_fields": [
+      "annual_income"
+    ],
+    "candidates": [
+      "annual_income"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "annual_income"
+    ],
+    "elapsed_sec": 0.5
+  },
+  {
+    "plcyNo": "20260527005400213222",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260527005400213221",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "candidates": [
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.5
+  },
+  {
+    "plcyNo": "20260522005400213220",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "candidates": [
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.54
+  },
+  {
+    "plcyNo": "20260522005400213219",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260522005400213218",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260522005400213217",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260522005400213216",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260522005400213215",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "candidates": [
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.49
+  },
+  {
+    "plcyNo": "20260522005400213214",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260522005400213213",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "candidates": [
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.65
+  },
+  {
+    "plcyNo": "20260522005400213212",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260522005400213211",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260521005400213210",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260521005400213209",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260520005400213208",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260518005400213206",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "candidates": [
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.58
+  },
+  {
+    "plcyNo": "20260513005400213205",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260513005400213204",
+    "required_fields": [
+      "household_size",
+      "household_income",
+      "annual_income"
+    ],
+    "candidates": [
+      "annual_income",
+      "household_income",
+      "household_size"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "household_income",
+      "household_size"
+    ],
+    "elapsed_sec": 0.61
+  },
+  {
+    "plcyNo": "20260513005400213203",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260513005400213202",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260513005400213201",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260513005400213200",
+    "required_fields": [
+      "household_size",
+      "household_income",
+      "annual_income"
+    ],
+    "candidates": [
+      "annual_income",
+      "household_income"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "annual_income",
+      "household_income",
+      "household_size"
+    ],
+    "elapsed_sec": 0.93
+  },
+  {
+    "plcyNo": "20260513005400213199",
+    "required_fields": [
+      "household_size",
+      "household_income",
+      "annual_income"
+    ],
+    "candidates": [
+      "annual_income",
+      "household_income",
+      "household_size"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "annual_income",
+      "household_income",
+      "household_size"
+    ],
+    "elapsed_sec": 0.64
+  },
+  {
+    "plcyNo": "20260513005400213198",
+    "required_fields": [
+      "household_size",
+      "household_income",
+      "annual_income"
+    ],
+    "candidates": [
+      "annual_income",
+      "household_income",
+      "household_size"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "household_income",
+      "household_size"
+    ],
+    "elapsed_sec": 0.55
+  },
+  {
+    "plcyNo": "20260513005400213197",
+    "required_fields": [
+      "household_size",
+      "household_income",
+      "annual_income",
+      "is_business_owner"
+    ],
+    "candidates": [
+      "annual_income",
+      "household_income",
+      "household_size",
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "household_income",
+      "household_size",
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.64
+  },
+  {
+    "plcyNo": "20260513005400213196",
+    "required_fields": [
+      "annual_income"
+    ],
+    "candidates": [
+      "annual_income"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "annual_income"
+    ],
+    "elapsed_sec": 0.5
+  },
+  {
+    "plcyNo": "20260513005400213195",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260513005400213194",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260513005400213193",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260513005400213192",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260513005400213191",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260513005400213190",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260513005400213189",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260513005400213188",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260513005400213187",
+    "required_fields": [
+      "annual_income"
+    ],
+    "candidates": [
+      "annual_income"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "annual_income"
+    ],
+    "elapsed_sec": 0.51
+  },
+  {
+    "plcyNo": "20260513005400213186",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260513005400213185",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260513005400213184",
+    "required_fields": [
+      "household_size",
+      "household_income",
+      "annual_income"
+    ],
+    "candidates": [
+      "annual_income"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "annual_income",
+      "household_income",
+      "household_size"
+    ],
+    "elapsed_sec": 0.65
+  },
+  {
+    "plcyNo": "20260513005400213183",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260513005400213182",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260513005400213181",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260513005400213184",
+    "required_fields": [
+      "household_size",
+      "household_income",
+      "annual_income"
+    ],
+    "candidates": [
+      "annual_income",
+      "household_income",
+      "household_size"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "household_income",
+      "household_size"
+    ],
+    "elapsed_sec": 0.6
+  },
+  {
+    "plcyNo": "20260511005400213179",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "candidates": [
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.52
+  },
+  {
+    "plcyNo": "20260511005400213178",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260506005400213176",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260506005400213175",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260506005400213174",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "candidates": [
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.48
+  },
+  {
+    "plcyNo": "20260506005400213173",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260506005400213172",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260506005400213171",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260506005400213170",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260506005400213169",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260506005400213168",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260506005400213167",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260506005400213166",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260506005400213165",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260506005400213164",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260506005400213163",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260506005400213162",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260506005400213161",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260506005400213160",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260506005400213159",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260506005400213158",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260506005400213157",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260506005400213156",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260506005400213155",
+    "required_fields": [
+      "household_size",
+      "household_income",
+      "annual_income"
+    ],
+    "candidates": [
+      "annual_income",
+      "household_income",
+      "household_size"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "household_income",
+      "household_size"
+    ],
+    "elapsed_sec": 0.6
+  },
+  {
+    "plcyNo": "20260506005400213154",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "candidates": [
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.51
+  },
+  {
+    "plcyNo": "20260506005400213153",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260506005400213152",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260506005400213151",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260506005400213150",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260506005400213149",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260506005400213148",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260506005400213147",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260506005400213146",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "candidates": [
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.49
+  },
+  {
+    "plcyNo": "20260506005400213145",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260506005400213144",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260506005400213143",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260506005400213142",
+    "required_fields": [
+      "household_size",
+      "household_income",
+      "annual_income"
+    ],
+    "candidates": [
+      "annual_income",
+      "household_income"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "annual_income",
+      "household_income",
+      "household_size"
+    ],
+    "elapsed_sec": 0.63
+  },
+  {
+    "plcyNo": "20260506005400213141",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260506005400213140",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260506005400213139",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "candidates": [
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.44
+  },
+  {
+    "plcyNo": "20260504005400113138",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113137",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213136",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113135",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113134",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113133",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213132",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113131",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113130",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113129",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113128",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113127",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113126",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113125",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113124",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113123",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113122",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113121",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113120",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113119",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113118",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113117",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113116",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113115",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113114",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113113",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113112",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113111",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113110",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113109",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113108",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113107",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113106",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113105",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113104",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113103",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113102",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113101",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113100",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113099",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113098",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113097",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113096",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113095",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113094",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113093",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "candidates": [
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.49
+  },
+  {
+    "plcyNo": "20260504005400113092",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113091",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113090",
+    "required_fields": [
+      "household_size",
+      "household_income",
+      "annual_income"
+    ],
+    "candidates": [
+      "household_income",
+      "household_size"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "annual_income",
+      "household_income",
+      "household_size"
+    ],
+    "elapsed_sec": 1.69
+  },
+  {
+    "plcyNo": "20260504005400213089",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213088",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213087",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213086",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113085",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113084",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "candidates": [
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.47
+  },
+  {
+    "plcyNo": "20260504005400113083",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113082",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113081",
+    "required_fields": [
+      "annual_income"
+    ],
+    "candidates": [
+      "annual_income"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "annual_income"
+    ],
+    "elapsed_sec": 0.51
+  },
+  {
+    "plcyNo": "20260504005400113080",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113079",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113078",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113077",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113076",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113075",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113074",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213073",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213072",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400113071",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213070",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "candidates": [
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.59
+  },
+  {
+    "plcyNo": "20260504005400213069",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213068",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213067",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213066",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213065",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213064",
+    "required_fields": [
+      "household_size",
+      "household_income"
+    ],
+    "candidates": [
+      "household_income",
+      "household_size"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "household_income",
+      "household_size"
+    ],
+    "elapsed_sec": 0.55
+  },
+  {
+    "plcyNo": "20260504005400213063",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213062",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213061",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213060",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213059",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "candidates": [
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.41
+  },
+  {
+    "plcyNo": "20260504005400213058",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213057",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213056",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213055",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213054",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213053",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213052",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213051",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213050",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213049",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213048",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213047",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213046",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213045",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213044",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213043",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213042",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213041",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213040",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213039",
+    "required_fields": [
+      "household_size",
+      "household_income"
+    ],
+    "candidates": [
+      "household_income",
+      "household_size"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "household_income",
+      "household_size"
+    ],
+    "elapsed_sec": 0.61
+  },
+  {
+    "plcyNo": "20260504005400213038",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213037",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213036",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213035",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213034",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213033",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213032",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213031",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213030",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213029",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213028",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213027",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213026",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213025",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213024",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213023",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213022",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213021",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213020",
+    "required_fields": [
+      "household_size",
+      "household_income"
+    ],
+    "candidates": [
+      "household_income",
+      "household_size"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "household_income",
+      "household_size"
+    ],
+    "elapsed_sec": 0.52
+  },
+  {
+    "plcyNo": "20260504005400213019",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213018",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213017",
+    "required_fields": [
+      "household_size",
+      "household_income",
+      "annual_income"
+    ],
+    "candidates": [
+      "annual_income",
+      "household_income",
+      "household_size"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "annual_income",
+      "household_income",
+      "household_size"
+    ],
+    "elapsed_sec": 0.7
+  },
+  {
+    "plcyNo": "20260504005400213016",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213015",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213014",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213013",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260504005400213012",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "candidates": [
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.49
+  },
+  {
+    "plcyNo": "20260504005400213011",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400213010",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400113009",
+    "required_fields": [
+      "household_size",
+      "household_income",
+      "annual_income"
+    ],
+    "candidates": [
+      "annual_income",
+      "household_income",
+      "household_size"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "annual_income",
+      "household_income",
+      "household_size"
+    ],
+    "elapsed_sec": 0.78
+  },
+  {
+    "plcyNo": "20260430005400213008",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400213007",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400213006",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "candidates": [
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.42
+  },
+  {
+    "plcyNo": "20260430005400213005",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400213004",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400213003",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400213002",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400213001",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400213000",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212999",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212998",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212997",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212996",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212995",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212994",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212993",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212992",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212991",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212990",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212989",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212988",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212987",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212986",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212985",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212984",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "candidates": [
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.48
+  },
+  {
+    "plcyNo": "20260430005400212983",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212982",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "candidates": [
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.51
+  },
+  {
+    "plcyNo": "20260430005400212981",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212980",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212979",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400112978",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212977",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212976",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212975",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212974",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212973",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212972",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212971",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212970",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212969",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212968",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212967",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212966",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212964",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212963",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212961",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212960",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212959",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212958",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212957",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212956",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212955",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212954",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212953",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212952",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260430005400212951",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212949",
+    "required_fields": [
+      "household_size",
+      "household_income"
+    ],
+    "candidates": [
+      "household_income",
+      "household_size"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "household_income",
+      "household_size"
+    ],
+    "elapsed_sec": 0.71
+  },
+  {
+    "plcyNo": "20260429005400212948",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212947",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212946",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212945",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212944",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212943",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212942",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212941",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212940",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212939",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212938",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212937",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212936",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212935",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212934",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212933",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212932",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212931",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212930",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212929",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212928",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212927",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212926",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212925",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "candidates": [
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.43
+  },
+  {
+    "plcyNo": "20260429005400212924",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212923",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212922",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "candidates": [
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.42
+  },
+  {
+    "plcyNo": "20260429005400212921",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212920",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212919",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212918",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212917",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212916",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212915",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "candidates": [
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.43
+  },
+  {
+    "plcyNo": "20260429005400212914",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212913",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212912",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212911",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212910",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212909",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212908",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212906",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212905",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260429005400212904",
+    "required_fields": [
+      "household_size",
+      "household_income",
+      "annual_income"
+    ],
+    "candidates": [
+      "annual_income",
+      "household_size"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "annual_income",
+      "household_size"
+    ],
+    "elapsed_sec": 0.55
+  },
+  {
+    "plcyNo": "20260429005400212903",
+    "required_fields": [
+      "household_size",
+      "household_income",
+      "annual_income"
+    ],
+    "candidates": [
+      "annual_income",
+      "household_size"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "annual_income",
+      "household_size"
+    ],
+    "elapsed_sec": 0.55
+  },
+  {
+    "plcyNo": "20260428005400212902",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260428005400212901",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260428005400212899",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260428005400212898",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260428005400212897",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260428005400212896",
+    "required_fields": [
+      "household_size",
+      "household_income"
+    ],
+    "candidates": [
+      "household_income",
+      "household_size"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "household_income",
+      "household_size"
+    ],
+    "elapsed_sec": 0.58
+  },
+  {
+    "plcyNo": "20260428005400212895",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260428005400212894",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260428005400212893",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260428005400212892",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260428005400212891",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260428005400212890",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "candidates": [
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.49
+  },
+  {
+    "plcyNo": "20260428005400212889",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260428005400212887",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260427005400212885",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260427005400212884",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260427005400212883",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260427005400212882",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260427005400212881",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260427005400212880",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "candidates": [
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.42
+  },
+  {
+    "plcyNo": "20260427005400212879",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260427005400212878",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260427005400212877",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260427005400212876",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260427005400212875",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260424005400212874",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260424005400212873",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260424005400212872",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260423005400212871",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "candidates": [
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.52
+  },
+  {
+    "plcyNo": "20260423005400212870",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260422005400212868",
+    "required_fields": [
+      "annual_income"
+    ],
+    "candidates": [
+      "annual_income"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "annual_income"
+    ],
+    "elapsed_sec": 0.48
+  },
+  {
+    "plcyNo": "20260422005400212866",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260422005400212865",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260422005400212864",
+    "required_fields": [
+      "household_size",
+      "household_income"
+    ],
+    "candidates": [
+      "household_income",
+      "household_size"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "household_income",
+      "household_size"
+    ],
+    "elapsed_sec": 0.71
+  },
+  {
+    "plcyNo": "20260422005400212861",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260422005400212860",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "candidates": [
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.41
+  },
+  {
+    "plcyNo": "20260422005400212859",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "candidates": [
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.43
+  },
+  {
+    "plcyNo": "20260422005400212858",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "candidates": [
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.46
+  },
+  {
+    "plcyNo": "20260422005400212856",
+    "required_fields": [
+      "household_size",
+      "household_income",
+      "annual_income",
+      "is_business_owner"
+    ],
+    "candidates": [
+      "annual_income",
+      "household_income",
+      "household_size",
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "annual_income",
+      "household_income",
+      "household_size",
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.62
+  },
+  {
+    "plcyNo": "20260422005400212855",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260422005400212854",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260422005400212853",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260422005400212852",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260422005400212850",
+    "required_fields": [
+      "annual_income"
+    ],
+    "candidates": [
+      "annual_income"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "annual_income"
+    ],
+    "elapsed_sec": 0.49
+  },
+  {
+    "plcyNo": "20260422005400212849",
+    "required_fields": [
+      "household_size",
+      "household_income",
+      "annual_income"
+    ],
+    "candidates": [
+      "annual_income",
+      "household_income"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "annual_income",
+      "household_income",
+      "household_size"
+    ],
+    "elapsed_sec": 0.64
+  },
+  {
+    "plcyNo": "20260422005400212848",
+    "required_fields": [
+      "household_size",
+      "household_income",
+      "annual_income"
+    ],
+    "candidates": [
+      "household_size"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "annual_income",
+      "household_size"
+    ],
+    "elapsed_sec": 0.56
+  },
+  {
+    "plcyNo": "20260422005400212847",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260422005400212846",
+    "required_fields": [
+      "household_size",
+      "household_income",
+      "annual_income"
+    ],
+    "candidates": [
+      "annual_income",
+      "household_income",
+      "household_size"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "household_income",
+      "household_size"
+    ],
+    "elapsed_sec": 0.57
+  },
+  {
+    "plcyNo": "20260422005400212845",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260422005400212843",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260422005400212842",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260422005400212841",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260422005400212840",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260422005400212839",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260422005400212838",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260422005400212837",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260422005400212834",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260422005400212833",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212832",
+    "required_fields": [
+      "household_size",
+      "household_income"
+    ],
+    "candidates": [
+      "household_income",
+      "household_size"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "household_income",
+      "household_size"
+    ],
+    "elapsed_sec": 0.56
+  },
+  {
+    "plcyNo": "20260421005400212830",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "candidates": [
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 1.13
+  },
+  {
+    "plcyNo": "20260421005400212829",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212828",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212827",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212826",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212825",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212824",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212823",
+    "required_fields": [
+      "household_size",
+      "household_income"
+    ],
+    "candidates": [
+      "household_income",
+      "household_size"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "household_income",
+      "household_size"
+    ],
+    "elapsed_sec": 1.6
+  },
+  {
+    "plcyNo": "20260421005400212822",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212821",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212820",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212819",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212818",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212817",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212816",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212815",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212814",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212813",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212811",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212810",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212809",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212808",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212807",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212806",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212805",
+    "required_fields": [
+      "household_size",
+      "household_income"
+    ],
+    "candidates": [
+      "household_income",
+      "household_size"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "household_income",
+      "household_size"
+    ],
+    "elapsed_sec": 0.6
+  },
+  {
+    "plcyNo": "20260421005400212804",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212803",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212802",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212801",
+    "required_fields": [
+      "household_size",
+      "household_income",
+      "annual_income"
+    ],
+    "candidates": [
+      "annual_income",
+      "household_income",
+      "household_size"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "household_income",
+      "household_size"
+    ],
+    "elapsed_sec": 0.67
+  },
+  {
+    "plcyNo": "20260421005400212800",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212799",
+    "required_fields": [
+      "annual_income"
+    ],
+    "candidates": [
+      "annual_income"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "annual_income"
+    ],
+    "elapsed_sec": 0.5
+  },
+  {
+    "plcyNo": "20260421005400212798",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212797",
+    "required_fields": [
+      "household_size",
+      "household_income"
+    ],
+    "candidates": [
+      "household_income",
+      "household_size"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "household_income",
+      "household_size"
+    ],
+    "elapsed_sec": 0.54
+  },
+  {
+    "plcyNo": "20260421005400212796",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212795",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212794",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212793",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212792",
+    "required_fields": [
+      "household_size",
+      "household_income",
+      "annual_income"
+    ],
+    "candidates": [
+      "annual_income",
+      "household_income",
+      "household_size"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "annual_income",
+      "household_income",
+      "household_size"
+    ],
+    "elapsed_sec": 0.59
+  },
+  {
+    "plcyNo": "20260421005400212791",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212790",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212789",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212788",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212787",
+    "required_fields": [
+      "household_size",
+      "household_income"
+    ],
+    "candidates": [
+      "household_income",
+      "household_size"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "household_income",
+      "household_size"
+    ],
+    "elapsed_sec": 0.57
+  },
+  {
+    "plcyNo": "20260421005400212786",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "candidates": [
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.48
+  },
+  {
+    "plcyNo": "20260421005400212785",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212784",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "candidates": [
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.47
+  },
+  {
+    "plcyNo": "20260421005400212783",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212782",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212781",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212780",
+    "required_fields": [
+      "household_size",
+      "household_income",
+      "annual_income"
+    ],
+    "candidates": [
+      "annual_income",
+      "household_income",
+      "household_size"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "annual_income",
+      "household_income",
+      "household_size"
+    ],
+    "elapsed_sec": 0.68
+  },
+  {
+    "plcyNo": "20260421005400212779",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212778",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212777",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212776",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212775",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400212774",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260421005400112773",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260420005400212772",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260420005400212771",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260420005400212770",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260420005400212769",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260417005400112768",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260417005400112767",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260417005400112766",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "candidates": [
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.43
+  },
+  {
+    "plcyNo": "20260416005400112765",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260416005400112764",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260416005400112763",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260416005400112762",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "candidates": [
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.5
+  },
+  {
+    "plcyNo": "20260416005400112761",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "candidates": [
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.45
+  },
+  {
+    "plcyNo": "20260416005400112760",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260416005400112759",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260416005400112758",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "candidates": [
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.64
+  },
+  {
+    "plcyNo": "20260416005400212755",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260416005400212754",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "candidates": [
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.44
+  },
+  {
+    "plcyNo": "20260416005400212753",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260416005400212752",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "candidates": [
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.42
+  },
+  {
+    "plcyNo": "20260415005400112751",
+    "required_fields": [
+      "household_size",
+      "household_income"
+    ],
+    "candidates": [
+      "annual_income",
+      "household_income",
+      "household_size"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "household_income",
+      "household_size"
+    ],
+    "elapsed_sec": 0.62
+  },
+  {
+    "plcyNo": "20260415005400212750",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260415005400212749",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260415005400212748",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "candidates": [
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.48
+  },
+  {
+    "plcyNo": "20260415005400212747",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260415005400212746",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260415005400212745",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260415005400212744",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260414005400212743",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260414005400212742",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260414005400212741",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260414005400212740",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260414005400212739",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260414005400212738",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260414005400212737",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260414005400212736",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260414005400212735",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260414005400212734",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260414005400212733",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260414005400212732",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260414005400212731",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260414005400212730",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260414005400212729",
+    "required_fields": [
+      "is_business_owner"
+    ],
+    "candidates": [
+      "is_business_owner"
+    ],
+    "biz_rule_fixed": true,
+    "llm_verified": [
+      "is_business_owner"
+    ],
+    "elapsed_sec": 0.48
+  },
+  {
+    "plcyNo": "20260414005400212728",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260413005400212727",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260413005400212726",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260413005400212725",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260413005400212724",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260413005400212723",
+    "required_fields": [],
+    "candidates": [],
+    "biz_rule_fixed": false,
+    "llm_verified": [],
+    "elapsed_sec": 0.0
+  },
+  {
+    "plcyNo": "20260413005400212722",
+    "required_fields": [
+      "annual_income"
+    ],
+    "candidates": [
+      "annual_income"
+    ],
+    "biz_rule_fixed": false,
+    "llm_verified": [
+      "annual_income"
+    ],
+    "elapsed_sec": 0.49
+  }
+]
