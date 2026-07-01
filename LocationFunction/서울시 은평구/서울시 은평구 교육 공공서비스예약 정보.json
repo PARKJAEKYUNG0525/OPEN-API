@@ -1,0 +1,8 @@
+{
+"DESCRIPTION" : {"USETGTINFO":"서비스대상","SVCID":"서비스ID","RCPTBGNDT":"접수시작일시","GUBUN":"서비스구분","SVCSTATNM":"서비스상태","SVCURL":"바로가기URL","SVCNM":"서비스명","AREANM":"지역명","PAYATNM":"결제방법","SVCOPNENDDT":"서비스개시종료일시","SVCOPNBGNDT":"서비스개시시작일시","PLACENM":"장소명","MAXCLASSNM":"대분류명","Y":"장소Y좌표","X":"장소X좌표","RCPTENDDT":"접수종료일시","MINCLASSNM":"소분류명"},
+"DATA" : [
+{"svcstatnm":"예약마감","usetgtinfo":" 성인","gubun":"자체","rcptenddt":1784037600000,"svcopnenddt":1784041200000,"svcid":"S260606163058597222","minclassnm":"도시농업","payatnm":"무료","svcurl":"https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260606163058597222","placenm":"은평구 향림도시농업체험원","areanm":"은평구","rcptbgndt":1781658000000,"svcopnbgndt":1781622000000,"svcnm":"향림정원농담(庭園農談)-어반스케치","y":"37.62802","maxclassnm":"교육강좌","x":"126.9268"},
+{"svcstatnm":"접수종료","usetgtinfo":" 성인","gubun":"자체","rcptenddt":1782694800000,"svcopnenddt":1782918000000,"svcid":"S260617130717184822","minclassnm":"도시농업","payatnm":"무료","svcurl":"https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260617130717184822","placenm":"은평구 향림도시농업체험원","areanm":"은평구","rcptbgndt":1782176400000,"svcopnbgndt":1781622000000,"svcnm":"자연을 물들이다 (천연염색)","y":"37.62802","maxclassnm":"교육강좌","x":"126.9268"},
+{"svcstatnm":"접수중","usetgtinfo":" 제한없음(서울시민 누구나)","gubun":"자체","rcptenddt":1790694120000,"svcopnenddt":1790694000000,"svcid":"S260624161517651397","minclassnm":"도시농업","payatnm":"무료","svcurl":"https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260624161517651397","placenm":"은평구 향림도시농업체험원","areanm":"은평구","rcptbgndt":1782486060000,"svcopnbgndt":1782486000000,"svcnm":"은평구 반려식물클리닉(7~9월)","y":"37.62802","maxclassnm":"교육강좌","x":"126.9268"}
+]
+}

@@ -1,0 +1,7 @@
+{
+"DESCRIPTION" : {"USETGTINFO":"서비스대상","SVCID":"서비스ID","RCPTBGNDT":"접수시작일시","GUBUN":"서비스구분","SVCSTATNM":"서비스상태","SVCURL":"바로가기URL","SVCNM":"서비스명","AREANM":"지역명","PAYATNM":"결제방법","SVCOPNENDDT":"서비스개시종료일시","SVCOPNBGNDT":"서비스개시시작일시","PLACENM":"장소명","MAXCLASSNM":"대분류명","Y":"장소Y좌표","X":"장소X좌표","RCPTENDDT":"접수종료일시","MINCLASSNM":"소분류명"},
+"DATA" : [
+{"svcstatnm":"예약마감","usetgtinfo":" 가족(초3~6학년)","gubun":"자체","rcptenddt":1783580400000,"svcopnenddt":1786546800000,"svcid":"S260609113041725874","minclassnm":"역사","payatnm":"무료","svcurl":"https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260609113041725874","placenm":"동대문역사문화공원>동대문역사관","areanm":"중구","rcptbgndt":1782694800000,"svcopnbgndt":1781535600000,"svcnm":"[동대문역사관] 2026년 여름방학 &#39;어린이 동대문지역의 역사이야기&#39;","y":"37.565587811","maxclassnm":"교육강좌","x":"127.0091320642"},
+{"svcstatnm":"접수종료","usetgtinfo":" 성인","gubun":"자체","rcptenddt":1777557540000,"svcopnenddt":1787929200000,"svcid":"S260331174424343975","minclassnm":"교양/어학","payatnm":"무료","svcurl":"https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260331174424343975","placenm":"서소문성지역사박물관","areanm":"중구","rcptbgndt":1776733200000,"svcopnbgndt":1775142000000,"svcnm":"[서소문성지 역사박물관] 2026  성인인문학강좌 덩굴내학당 : 都市思索 도시사색Ⅱ","y":"37.5607","maxclassnm":"교육강좌","x":"126.96975"}
+]
+}

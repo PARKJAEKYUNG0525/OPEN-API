@@ -1,0 +1,3 @@
+{
+"DESCRIPTION" : {"USETGTINFO":"서비스대상","SVCID":"서비스ID","RCPTBGNDT":"접수시작일시","GUBUN":"서비스구분","SVCSTATNM":"서비스상태","SVCURL":"바로가기URL","SVCNM":"서비스명","AREANM":"지역명","PAYATNM":"결제방법","SVCOPNENDDT":"서비스개시종료일시","SVCOPNBGNDT":"서비스개시시작일시","PLACENM":"장소명","MAXCLASSNM":"대분류명","Y":"장소Y좌표","X":"장소X좌표","RCPTENDDT":"접수종료일시","MINCLASSNM":"소분류명"}
+}

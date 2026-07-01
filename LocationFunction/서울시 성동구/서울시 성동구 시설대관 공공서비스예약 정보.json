@@ -1,0 +1,7 @@
+{
+"DESCRIPTION" : {"USETGTINFO":"서비스대상","SVCID":"서비스ID","RCPTBGNDT":"접수시작일시","GUBUN":"서비스구분","SVCSTATNM":"서비스상태","SVCURL":"바로가기URL","SVCNM":"서비스명","AREANM":"지역명","PAYATNM":"결제방법","SVCOPNENDDT":"서비스개시종료일시","SVCOPNBGNDT":"서비스개시시작일시","PLACENM":"장소명","MAXCLASSNM":"대분류명","Y":"장소Y좌표","X":"장소X좌표","RCPTENDDT":"접수종료일시","MINCLASSNM":"소분류명"},
+"DATA" : [
+{"svcstatnm":"접수중","usetgtinfo":" 청년(만 19세~39세)","gubun":"자체","rcptenddt":1798729140000,"svcopnenddt":1798642800000,"svcid":"S251030105406614828","minclassnm":"청년공간","payatnm":"무료","svcurl":"https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S251030105406614828","placenm":"서울청년센터 성동","areanm":"성동구","rcptbgndt":1761893100000,"svcopnbgndt":1761836400000,"svcnm":"[서울청년센터 성동] 공유공간 다목적실1","y":"37.56354","maxclassnm":"공간시설","x":"127.04224"},
+{"svcstatnm":"접수중","usetgtinfo":" 청년(만 19세~39세)","gubun":"자체","rcptenddt":1788015600000,"svcopnenddt":1788015600000,"svcid":"S251222155448719556","minclassnm":"청년공간","payatnm":"무료","svcurl":"https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S251222155448719556","placenm":"서울청년센터 성동","areanm":"성동구","rcptbgndt":1767193260000,"svcopnbgndt":1767193200000,"svcnm":"[서울청년센터 성동] 다인원실(10명~30명) 다목적실2","y":"37.56354","maxclassnm":"공간시설","x":"127.04224"}
+]
+}
