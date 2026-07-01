@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useMemo } from "react";
 
 const API_BASE = "http://127.0.0.1:8000";
 
@@ -9,13 +9,14 @@ function App() {
   const [results, setResults] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+  const [statusFilter, setStatusFilter] = useState({});
+  const [expandedPlaces, setExpandedPlaces] = useState({});
 
   const mapRef = useRef(null);
   const mapInstance = useRef(null);
   const markersRef = useRef([]);
   const myLocationOverlayRef = useRef(null);
 
-  // 카카오맵 SDK 로드 + 지도 초기화
   useEffect(() => {
     if (!window.kakao) {
       setError("카카오맵 SDK를 불러오지 못했어요. index.html의 appkey를 확인하세요.");
@@ -24,7 +25,7 @@ function App() {
     window.kakao.maps.load(() => {
       const container = mapRef.current;
       const options = {
-        center: new window.kakao.maps.LatLng(37.5735, 126.9788), // 종로구 기본 위치
+        center: new window.kakao.maps.LatLng(37.5735, 126.9788),
         level: 6,
       };
       mapInstance.current = new window.kakao.maps.Map(container, options);
@@ -47,12 +48,10 @@ function App() {
           const moveLatLng = new window.kakao.maps.LatLng(lat, lng);
           mapInstance.current.setCenter(moveLatLng);
 
-          // 기존 내 위치 오버레이 있으면 제거 (중복 방지)
           if (myLocationOverlayRef.current) {
             myLocationOverlayRef.current.setMap(null);
           }
 
-          // 내 위치는 파란 원 커스텀 오버레이로 표시 (검색결과 마커와 구분되게)
           const content = `
             <div style="
               width: 16px; height: 16px;
@@ -100,11 +99,17 @@ function App() {
       const data = await res.json();
       setResults(data.results);
 
+      // 검색결과에 등장하는 상태값들을 기준으로 필터 체크박스 초기화 (전부 체크된 상태로 시작)
+      const uniqueStatuses = [...new Set(data.results.map((r) => r.서비스상태))];
+      const initialFilter = {};
+      uniqueStatuses.forEach((s) => (initialFilter[s] = true));
+      setStatusFilter(initialFilter);
+      setExpandedPlaces({});
+
       clearMarkers();
       if (mapInstance.current && data.results.length > 0) {
         const bounds = new window.kakao.maps.LatLngBounds();
 
-        // 검색결과는 빨간 마커로 표시 (내 위치 파란 점과 구분)
         const redMarkerSvg = `
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="42" viewBox="0 0 32 42">
             <path d="M16 0C7.163 0 0 7.163 0 16c0 12 16 26 16 26s16-14 16-26C32 7.163 24.837 0 16 0z" fill="#EA4335"/>
@@ -144,7 +149,6 @@ function App() {
           bounds.extend(position);
         });
 
-        // 내 위치도 지도 범위 계산에 포함시켜서 같이 보이게 함
         if (myLocation) {
           bounds.extend(new window.kakao.maps.LatLng(myLocation.lat, myLocation.lng));
         }
@@ -157,6 +161,32 @@ function App() {
       setLoading(false);
     }
   };
+
+  const toggleStatusFilter = (status) => {
+    setStatusFilter((prev) => ({ ...prev, [status]: !prev[status] }));
+  };
+
+  const togglePlace = (placeName) => {
+    setExpandedPlaces((prev) => ({ ...prev, [placeName]: !prev[placeName] }));
+  };
+
+  // 상태 필터 적용
+  const filteredResults = useMemo(() => {
+    return results.filter((item) => statusFilter[item.서비스상태]);
+  }, [results, statusFilter]);
+
+  // 장소명(placenm) 기준으로 그룹핑
+  const groupedByPlace = useMemo(() => {
+    const groups = {};
+    filteredResults.forEach((item) => {
+      const key = item.장소명 || "기타";
+      if (!groups[key]) groups[key] = [];
+      groups[key].push(item);
+    });
+    return groups;
+  }, [filteredResults]);
+
+  const allStatuses = Object.keys(statusFilter);
 
   return (
     <div style={{ maxWidth: 900, margin: "0 auto", padding: 20, fontFamily: "sans-serif" }}>
@@ -200,35 +230,76 @@ function App() {
 
       <div ref={mapRef} style={{ width: "100%", height: 400, marginBottom: 16, border: "1px solid #ddd" }} />
 
-      <p>검색 결과: {results.length}건</p>
-      <ul style={{ listStyle: "none", padding: 0 }}>
-        {results.map((item, idx) => (
-          <li
-            key={idx}
-            style={{
-              marginBottom: 8,
-              padding: "8px 12px",
-              border: "1px solid #eee",
-              borderRadius: 6,
-            }}
-          >
-            <div>
-              [{item.지역}] {item.서비스명} - {item.장소명} ({item.서비스상태})
-              {item.거리_km !== undefined && ` - ${item.거리_km}km`}
-            </div>
-            {item.예약URL && (
-              
-                <a href={item.예약URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{ fontSize: 13, color: "#4285F4" }}
+      {allStatuses.length > 0 && (
+        <div style={{ marginBottom: 12, display: "flex", gap: 16, alignItems: "center", flexWrap: "wrap" }}>
+          <span style={{ fontSize: 14, fontWeight: "bold" }}>상태:</span>
+          {allStatuses.map((status) => (
+            <label key={status} style={{ fontSize: 14, display: "flex", alignItems: "center", gap: 4, cursor: "pointer" }}>
+              <input
+                type="checkbox"
+                checked={statusFilter[status]}
+                onChange={() => toggleStatusFilter(status)}
+              />
+              {status}
+            </label>
+          ))}
+        </div>
+      )}
+
+      <p>검색 결과: {filteredResults.length}건 ({Object.keys(groupedByPlace).length}개 장소)</p>
+
+      <div>
+        {Object.entries(groupedByPlace).map(([placeName, items]) => {
+          const isExpanded = expandedPlaces[placeName];
+          return (
+            <div key={placeName} style={{ marginBottom: 8, border: "1px solid #eee", borderRadius: 6, overflow: "hidden" }}>
+              <div
+                onClick={() => togglePlace(placeName)}
+                style={{
+                  padding: "10px 12px",
+                  background: "#f7f7f7",
+                  cursor: "pointer",
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                  fontWeight: "bold",
+                }}
               >
-                신청하러 가기 →
-              </a>
-            )}
-          </li>
-        ))}
-      </ul>
+                <span>{isExpanded ? "▼" : "▶"} {placeName} ({items.length}건)</span>
+              </div>
+
+              {isExpanded && (
+                <div style={{ padding: "4px 12px" }}>
+                  {items.map((item, idx) => (
+                    <div
+                      key={idx}
+                      style={{
+                        padding: "8px 0",
+                        borderTop: idx > 0 ? "1px solid #f0f0f0" : "none",
+                      }}
+                    >
+                      <div style={{ fontSize: 14 }}>
+                        {item.서비스명} · {item.서비스상태}
+                        {item.거리_km !== undefined && ` · ${item.거리_km}km`}
+                      </div>
+                      {item.예약URL && (
+                        
+                          <a href={item.예약URL}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          style={{ fontSize: 13, color: "#4285F4" }}
+                        >
+                          신청하러 가기 →
+                        </a>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 }
