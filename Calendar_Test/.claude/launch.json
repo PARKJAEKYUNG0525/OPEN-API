@@ -1,0 +1,29 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "bene-backend",
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": ["/c", "cd /d C:\\final_project\\bene_backend && fastapi\\Scripts\\python.exe main.py"],
+      "port": 8082
+    },
+    {
+      "name": "bene-frontend",
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": ["/c", "cd /d C:\\final_project\\bene_frontend && npm run dev"],
+      "port": 5173
+    },
+    {
+      "name": "bene-backend-verify",
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": ["/c", "cd /d C:\\final_project\\bene_backend && fastapi\\Scripts\\python.exe -m uvicorn main:app --host 0.0.0.0 --port 8091"],
+      "port": 8091
+    },
+    {
+      "name": "bene-frontend-verify",
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": ["/c", "cd /d C:\\final_project\\bene_frontend && npx vite --port 5174"],
+      "port": 5174
+    }
+  ]
+}

@@ -34,7 +34,7 @@ print(f"프로젝트 ID: {WATSON_PROJECT_ID}")
 # (서류심사/결과발표/면접/기수별 등) JSON 배열이 128 토큰으로는 잘릴 수 있음.
 CHAT_PARAMS = {"temperature": 0, "max_completion_tokens": 512}
 
-JSON_PATH = Path(r"C:\OPEN-API\성능평가\ontongAPI_2600.json")
+JSON_PATH = Path(r"C:\OPEN-API\성능평가\ontongAPI_2632.json")
 CACHE_PATH = Path(r"C:\OPEN-API\Calendar_Test\ai_schedule_cache.json")
 
 SYSTEM_PROMPT = """한국 청년정책 공고문([정책설명]/[신청방법]/[심사방법])에서 실제 날짜가 명시된
