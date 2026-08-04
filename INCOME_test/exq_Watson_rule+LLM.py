@@ -236,7 +236,7 @@ def rule_postprocess(
 with open("question.json", "r", encoding="utf-8") as f:
     questions = json.load(f)
 
-with open("../성능평가/ontongAPI_2600.json", "r", encoding="utf-8") as f:
+with open("../성능평가/ontongAPI_2632.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 policies = data["result"]["youthPolicyList"]
@@ -293,7 +293,7 @@ print(f"  공고 평균 시간 : {avg_elapsed:.2f}초")
 print(f"  처리 공고 수   : {len(policies)}개")
 print(f"{'='*50}")
 
-output_file = "notice_Truth_2600.json"
+output_file = "notice_Truth_2632.json"
 with open(output_file, "w", encoding="utf-8") as f:
     json.dump(results, f, ensure_ascii=False, indent=2)
 
